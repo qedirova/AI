@@ -1,0 +1,22 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+
+  .container {
+    max-width: 600px;
+  }
+
+  .subtitle {
+    color: #3a68b8;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin: 20px 0;
+  }
+}
