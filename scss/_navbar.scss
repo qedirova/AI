@@ -41,3 +41,23 @@
     font-size: 16px;
   }
 }
+
+.navbar-burger {
+  display: none;
+}
+
+@media (max-width: 960px) {
+  .navbar-links {
+    display: none;
+  }
+
+  .navbar-burger {
+    display: block;
+  }
+
+  .navbar-logo {
+    h1 {
+      display: none;
+    }
+  }
+}
