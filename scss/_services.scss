@@ -1,0 +1,42 @@
+.services {
+  padding-bottom: 200px;
+}
+
+.services-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.services-card {
+  background-color: #e5e5e533;
+  border-radius: 10px;
+  width: 362px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+  justify-content: center;
+  opacity: 0.7;
+
+  img {
+    width: 98px;
+    height: 103px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  h3 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
